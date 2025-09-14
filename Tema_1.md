@@ -27,7 +27,8 @@
 - Ротенштрайх Т.В.
 
 # 2.1 Установка
-(https://github.com/Mbryn520/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0-1/pic/%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B01.png)
+![Установка1](https://github.com/Mbryn520/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0-1/pic/%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B01.png)
+![Установка2](https://github.com/Mbryn520/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0-1/pic/%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B02.png)
 # 2.2 Настройка
 # 2.3 Создание нового репозитория
 # 2.4 Подготовка файлов
