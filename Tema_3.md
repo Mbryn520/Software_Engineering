@@ -295,7 +295,7 @@ while 'world' not in string:
 ### Результат
 ![](https://github.com/Mbryn520/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_3/pics/Sam5.png)
 ## Вывод
-Мы написали программу, которая выводит много hello и hello world посредством цикла while. 
+Мы написали программу, которая выводит много hello и hello world посредством цикла while. Мы присвоили string='hello', values=[0,2,4,6,8,10], counter=0. В цикле while (пока в string нет 'world') на каждой итерации сохраняли string в memory, при наличии counter в values добавляли к string 'world', выводили string, затем при counter<10 восстанавливали string из memory и увеличивали counter на 1. 
 
 ## Общий вывод по теме
 В теме №3 мы узнали как работать с циклами while и for, операторами условий if else elif, операторами управления break, continue и pass, а так же попробовали работу с вложенными циклами и комбинировали разные условия в одной программе. Благодаря этому мы можем работать с большими массивами данных и отслеживать что с ними происходит.
