@@ -24,65 +24,127 @@
 ## Лабораторная работа №1
 ### Друзья предложили вам поиграть в игру “найди отличия и убери повторения (версия для программистов)”. Суть игры состоит в том, что на вход программы поступает два множества, а ваша задача вывести все элементы первого, которых нет во втором. А вы как раз недавно прошли множества и знаете их возможности, поэтому это не составит для вас труда.
 ```python
+set_1 = {'White', 'Black', 'Red', 'Pink'}
+set_2 = {'Red', 'Green', 'Blue', 'Red'}
+print('1', set_1 - set_2)
+
+set_1 = {'White', 'Black', 'Red', 'Pink', 'Black', 'White'}
+set_2 = {'Red', 'Green', 'Blue', 'Red'}
+print('2', set_1 - set_2)
+
+set_1 = {'White', 'Black', 'Red', 'Pink', 'Red', 'Red'}
+set_2 = {'Red', 'Green', 'Red', 'Red', 'Red'}
+print('3', set_1 - set_2)
 ```
 ### Результат
-![]()
+![](https://github.com/Mbryn520/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_5/pic/Lab1.png)
 ## Вывод
 
 ## Лабораторная работа №2
 ### Напишите две одинаковые программы, только одна будет использовать set(), а вторая frozenset() и попробуйте к исходному множеству добавить несколько элементов, например, через цикл.
 ```python
+a = set('abcdefg')
+print(a)
+for i in range(1, 5):
+    a.add(i)
+print(a)
+
+a = frozenset('abcdefg')
+print(a)
+for i in range(1, 5):
+    a.add(i)
+print(a)
 ```
 ### Результат
-![]()
+![](https://github.com/Mbryn520/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_5/pic/Lab2.png)
 ## Вывод
 
 ## Лабораторная работа №3
 ###  На вход в программу поступает список (минимальной длиной 2 символа). Напишите программу, которая будет менять первый и последний элемент списка.
 ```python
+def replace(input_list):
+    memory = input_list[0]
+    input_list[0] = input_list[-1]
+    input_list[-1] = memory
+
+    return input_list
+
+print(replace([1, 2, 3, 4, 5]))
 ```
 ### Результат
-![]()
+![](https://github.com/Mbryn520/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_5/pic/Lab3.png)
 ## Вывод
 
 ## Лабораторная работа №4
 ### На вход в программу поступает список (минимальной длиной 10 символов). Напишите программу, которая выводит элементы с индексами от 2 до 6. В программе необходимо использовать “cpeз”.
 ```python
+a = [12, 54, 32, 57, 843, 2346, 765, 75, 25, 234, 756, 23]
+print(a[2:6])
 ```
 ### Результат
-![]()
+![](https://github.com/Mbryn520/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_5/pic/Lab4.png)
 ## Вывод
 
 ## Лабораторная работа №5
 ### Иван задумался о поиске «бесполезного» числа, полученного из списка. Суть поиска в следующем: он берет произвольный список чисел, находит самое большое из них, а затем делит его на длину списка. Студент пока не придумал, где может пригодиться подобное значение, но ищет у вас помощи в реализации такой функции useless().
 ```python
+def useless(lst):
+    return max(lst) / len(lst)
+
+print(useless([3, 5, 7, 3, 33]))
+print(useless([-12.5, 54, 77.3, 0, -36, 98.2, -63, 21.7, 47, -89.6]))
+print(useless([-25.8, 86, 12.5, -56, 73.2, 0, 43, -91.5, 65.9, -7]))
 ```
 ### Результат
-![]()
+![](https://github.com/Mbryn520/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_5/pic/Lab5.png)
 ## Вывод
 
 ## Лабораторная работа №6
 ### Ребята не могут определится каким супергероем они хотят стать. У них есть случайно составленный список супергероев, и вы должны определить кто из ребят будет каким супергероем. Необходимо использовать разделение списков.
 ```python
+superheroes = ['superman', 'spiderman', 'batman']
+
+nikolay, vasiliy, ivan = superheroes
+
+print('Николай - ', nikolay)
+print('Василий - ', vasiliy)
+print('Иван - ', ivan)
 ```
 ### Результат
-![]()
+![](https://github.com/Mbryn520/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_5/pic/Lab6.png)
 ## Вывод
 
 ## Лабораторная работа №7
 ### Вовочка, насмотревшись передачи “Слабое звено” решил написать программу, которая также будет находить самое слабое звено (минимальный элемент) и удалять его, только делать он это хочет не с людьми, а со списком. Помогите Вовочке с реализацией программы.
 ```python
+a = [-25.8, 86, 12.5, -56, 73.2, 0, 43, -91.5, 65.9, -7]
+a.sort()
+print('Отсортированный список:\n', a)
+a.pop(0)
+print('Отсортированный список без наименьшего элемента:\n', a)
 ```
 ### Результат
-![]()
+![](https://github.com/Mbryn520/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_5/pic/Lab7.png)
 ## Вывод
 
 ## Лабораторная работа №8
 ### Михаил решил создать большой n-мерный список, для этого он случайным образом создал несколько списков, состоящих минимум из 3, а максимум из 10 элементов и поместил их в один большой список. Он также как и Иван не знает зачем ему это сейчас нужно, но надеется на то, что это пригодится ему в будущем.
 ```python
+from random import randint
+
+def list_maker():
+    a = [randint(1, 100)] * randint(3, 10)
+    return a
+
+if __name__ == '__main__':
+    result = []
+    for i in range(randint(1, 5)):
+        result.append(list_maker())
+
+    print(result)
 ```
 ### Результат
-![]()
+![](https://github.com/Mbryn520/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_5/pic/Lab8.png)
 ## Вывод
 
 ## Лабораторная работа №9
@@ -91,17 +153,34 @@
 2 – «Объект {X} является чистым супермножеством»
 3 – «Множества равны»
 ```python
+def superset(set_1, set_2):
+    if set_1 > set_2:
+        print(f'Объект {set_1} является чистым супермножеством')
+    elif set_1 == set_2:
+        print('Множества равны')
+    elif set_1 < set_2:
+        print(f'Объект {set_2} является чистым супермножеством')
+    else:
+        print('Супермножество не обнаружено')
+
+if __name__ == '__main__':
+    superset({1, 8, 3, 5}, {3, 5})
+    superset({1, 8, 3, 5}, {5, 3, 8, 1})
+    superset({3, 5}, {5, 3, 8, 1})
+    superset({90, 100}, {3, 5})
 ```
 ### Результат
-![]()
+![](https://github.com/Mbryn520/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_5/pic/Lab9.png)
 ## Вывод
 
 ## Лабораторная работа №10
 ### Предположим, что вам нужно разобрать стопку бумаг, но нужно начать работу с нижней, “переверните стопку”. Вам дан произвольный список. Представьте его в обратном порядке. Программа должна занимать не более двух строк в редакторе кода.
 ```python
+my_list = [2, 5, 8, 3]
+print(my_list[::-1])
 ```
 ### Результат
-![]()
+![](https://github.com/Mbryn520/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_5/pic/Lab10.png)
 ## Вывод
 
 ## Самостоятельная работа №1
@@ -110,9 +189,34 @@
 Сколько разных людей посетило ресторан
 Какой работник посетил ресторан больше всех раз
 ```python
+visits = [8734, 2345, 8201, 6621, 9999, 1234, 5678, 8201, 8888, 4321, 3365,
+          1478, 9865, 5555, 7777, 9998, 1111, 2222, 3333, 4444, 5556, 6666,
+          5410, 7778, 8889, 4445, 1439, 9604, 8201, 3365, 7502, 3016, 4928,
+          5837, 8201, 2643, 5017, 9682, 8530, 3250, 7193, 9051, 4506, 1987,
+          3365, 5410, 7168, 7777, 9865, 5678, 8201, 4445, 3016, 4506, 4506]
+
+total = len(visits)
+univisitors = len(set(visits))
+uniworkers = list(set(visits))
+counts = []
+
+for worker in uniworkers:
+    count = 0
+    for visit in visits:
+        if visit == worker:
+            count += 1
+    counts.append(count)
+
+maxcount = max(counts)
+maxindex = counts.index(maxcount)
+mostworker = uniworkers[maxindex]
+
+print(total)
+print(univisitors)
+print(mostworker)
 ```
 ### Результат
-![]()
+![](https://github.com/Mbryn520/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_5/pic/Sam1.png)
 ## Вывод
 
 ## Самостоятельная работа №2
@@ -121,33 +225,122 @@
 -  Три худшие результата
 -  Все результаты начиная с 10
 ```python
+results = [10.2, 14.8, 19.3, 22.7, 12.5, 33.1, 38.9, 21.6, 26.4, 17.1, 30.2, 35.7, 16.9,
+           27.8, 24.5, 16.3, 18.7, 31.9, 12.9, 37.4]
+
+sortres = sorted(results)
+top3 = sortres[:3]
+bad3 = sortres[-3:]
+results10 = sortres[9:]
+
+print(top3)
+print(bad3)
+print(results10)
 ```
 ### Результат
-![]()
+![](https://github.com/Mbryn520/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_5/pic/Sam2.png)
 ## Вывод
 
 ## Самостоятельная работа №3
 ### Преподаватель по математике придумал странную задачку. У вас есть три списка с элементами, каждый элемент которых - длина стороны треугольника, ваша задача найти площади двух треугольников, составленные из максимальных и минимальных элементов полученных списков.
 ```python
+from math import *
+one = [12, 25, 3, 48, 71]
+two = [5, 18, 40, 62, 98]
+three = [4, 21, 37, 56, 84]
+
+a_min = min(one)
+b_min = min(two)
+c_min = min(three)
+
+a_max = max(one)
+b_max = max(two)
+c_max = max(three)
+
+p_min = (a_min + b_min + c_min) / 2
+p_max = (a_max + b_max + c_max) / 2
+
+plmin = sqrt(p_min * (p_min - a_min) * (p_min - b_min) * (p_min - c_min))
+plmax = sqrt(p_max * (p_max - a_max) * (p_max - b_max) * (p_max - c_max))
+
+print(plmin)
+print(plmax)
 ```
 ### Результат
-![]()
+![](https://github.com/Mbryn520/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_5/pic/Sam3.png)
 ## Вывод
 
 ## Самостоятельная работа №4
 ### Никто не любит получать плохие оценки, поэтому Борис решил это исправить. Допустим, что все оценки студента за семестр хранятся в одном списке. Ваша задача удалить из этого списка все двойки, а все тройки заменить на четверки.
 ```python
+gr1 = [2, 3, 4, 5, 3, 4, 5, 2, 2, 5, 3, 4, 3, 5, 4]
+gr2 = [4, 2, 3, 5, 3, 5, 4, 2, 2, 5, 4, 3, 5, 3, 4]
+gr3 = [5, 4, 3, 3, 4, 3, 3, 5, 5, 3, 3, 3, 3, 4, 4]
+
+i = 0
+while i < len(gr1):
+    if gr1[i] == 2:
+        gr1.pop(i)
+    elif gr1[i] == 3:
+        gr1[i] = 4
+        i += 1
+    else:
+        i += 1
+
+i = 0
+while i < len(gr2):
+    if gr2[i] == 2:
+        gr2.pop(i)
+    elif gr2[i] == 3:
+        gr2[i] = 4
+        i += 1
+    else:
+        i += 1
+
+i = 0
+while i < len(gr3):
+    if gr3[i] == 2:
+        gr3.pop(i)
+    elif gr3[i] == 3:
+        gr3[i] = 4
+        i += 1
+    else:
+        i += 1
+
+print(gr1)
+print(gr2)
+print(gr3)
 ```
 ### Результат
-![]()
+![](https://github.com/Mbryn520/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_5/pic/Sam4.png)
 ## Вывод
 
 ## Самостоятельная работа №5
 ### Вам предоставлены списки натуральных чисел, из них необходимо сформировать множества. При этом следует соблюдать это правило: если какое-либо число повторяется, то преобразовать его в строку по следующему образцу: например, если число 4 повторяется 3 раза, то в множестве будет следующая запись: само число 4, строка «44», строка «444».
 ```python
+list1 = [1, 1, 3, 3, 1]
+list2 = [5, 5, 5, 5, 5, 5, 5, 5]
+list3 = [2, 2, 1, 2, 2, 5, 6, 7, 1, 3, 2, 2]
+
+def newlist(lst):
+    resset = set()
+    for num in set(lst):
+        count = lst.count(num)
+        resset.add(num)
+        for i in range(2, count + 1):
+            resset.add(str(num) * i)
+    return resset
+
+set1 = newlist(list1)
+set2 = newlist(list2)
+set3 = newlist(list3)
+
+print(set1)
+print(set2)
+print(set3)
 ```
 ### Результат
-![]()
+![](https://github.com/Mbryn520/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_5/pic/Sam5.png)
 ## Вывод
 
 ## Общий вывод по теме
