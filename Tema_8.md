@@ -44,7 +44,7 @@ my_car = Car("Toyota", "Corolla") #Создаем объект my_car класс
 my_car.drive() #вызываем метод drive для my_car
 ```
 ### Результат
-![]()
+![](https://github.com/Mbryn520/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_8/pics8/Lab2.png)
 ## Вывод
 
 ## Лабораторная работа №3
@@ -75,7 +75,7 @@ my_electric_car.drive() #вызываем унаследованный мето�
 my_electric_car.charge() #вызываем метод
 ```
 ### Результат
-![]()
+![](https://github.com/Mbryn520/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_8/pics8/Lab3.png)
 ## Вывод
 
 ## Лабораторная работа №4
@@ -94,7 +94,7 @@ print(my_car._make) #доступ к защищенному атрибуту
 my_car.drive() #вызываем метод drive для my_car
 ```
 ### Результат
-![]()
+![](https://github.com/Mbryn520/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_8/pics8/Lab4.png)
 ## Вывод
 
 ## Лабораторная работа №5
@@ -133,7 +133,7 @@ for shape in shapes:
     print(shape.area())
 ```
 ### Результат
-![]()
+![](https://github.com/Mbryn520/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_8/pics8/Lab5.png)
 ## Вывод
 
 ## Самостоятельная работа №1
@@ -150,7 +150,7 @@ the_animal = Animal("Кошка")
 the_animal.sound()
 ```
 ### Результат
-![]()
+![](https://github.com/Mbryn520/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_8/pics8/Sam1.png)
 ## Вывод
 
 ## Самостоятельная работа №2
@@ -178,7 +178,7 @@ print(f"{dog.name} говорит {dog.sound()}")
 print(f"{cat.name} говорит {cat.sound()}")
 ```
 ### Результат
-![]()
+![](https://github.com/Mbryn520/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_8/pics8/Sam2.png)
 ## Вывод
 
 ## Самостоятельная работа №3
@@ -212,7 +212,7 @@ print(f"{cat.name} говорит {cat.sound()}")
 print(f"{pig.name} говорит {pig.sound()}")
 ```
 ### Результат
-![]()
+![](https://github.com/Mbryn520/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_8/pics8/Sam3.png)
 ## Вывод
 
 ## Самостоятельная работа №4
@@ -249,7 +249,7 @@ cat.set_name("Пушок")
 print(f"{cat.get_name()} говорит {cat.sound()}")
 ```
 ### Результат
-![]()
+![](https://github.com/Mbryn520/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_8/pics8/Sam4.png)
 ## Вывод
 
 ## Самостоятельная работа №5
@@ -282,7 +282,7 @@ for animal in animals:
     animal_sound(animal)
 ```
 ### Результат
-![]()
+![](https://github.com/Mbryn520/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_8/pics8/Sam5.png)
 ## Вывод
 
 ## Общий вывод по теме
