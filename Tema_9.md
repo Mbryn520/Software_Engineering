@@ -36,7 +36,7 @@ print(person2.name)
 person2.surname = 'Петрова'
 ```
 ### Результат
-![]()
+![](https://github.com/Mbryn520/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_9/pics9/Lab1.png)
 ## Вывод
 
 ## Лабораторная работа №2
@@ -66,7 +66,7 @@ icecream = Icecream(5)
 icecream.composition()
 ```
 ### Результат
-![]()
+![](https://github.com/Mbryn520/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_9/pics9/Lab2.png)
 ## Вывод
 
 ## Лабораторная работа №3
@@ -97,7 +97,7 @@ obj.del_value() # здесь мы удаляем атрибут, из-за че�
 print(obj.get_value()) # нет доступа к удаленному атрибуту = ошибка
 ```
 ### Результат
-![]()
+![](https://github.com/Mbryn520/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_9/pics9/Lab3.png)
 ## Вывод
 
 ## Лабораторная работа №4
@@ -122,7 +122,7 @@ cat = Cat()
 print(f"Кошка это {cat.className}, но говорит {cat.sounds} и имеет {cat.special}")
 ```
 ### Результат
-![]()
+![](https://github.com/Mbryn520/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_9/pics9/Lab4.png)
 ## Вывод
 
 ## Лабораторная работа №5
@@ -147,7 +147,7 @@ john = English()
 greet(john)
 ```
 ### Результат
-![]()
+![](https://github.com/Mbryn520/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_9/pics9/Lab5.png)
 ## Вывод
 
 ## Самостоятельная работа №1
@@ -227,7 +227,7 @@ gardener.work()
 gardener.harvest()
 ```
 ### Результат
-![]()
+![](https://github.com/Mbryn520/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_9/pics9/Sam1.png)
 ## Вывод
 
 ## Общий вывод по теме
