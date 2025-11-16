@@ -34,7 +34,8 @@ if __name__ == '__main__':
     print(fiboonacci(100))
 ```
 ### Результат
-![]()
+![](https://github.com/Mbryn520/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_10/pics10/Lab11%20dec.png)
+![](https://github.com/Mbryn520/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_10/pics10/Lab1%20bez.png)
 ## Вывод
 
 ## Лабораторная работа №2
@@ -60,7 +61,7 @@ if __name__ == '__main__':
     personal_info('Петр', 138,15,48,2)
 ```
 ### Результат
-![]()
+![](https://github.com/Mbryn520/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_10/pics10/Lab2.png)
 ## Вывод
 
 ## Лабораторная работа №3
@@ -83,7 +84,7 @@ if __name__ == '__main__':
     data([1,15, 'Hello', 'i', 'try', 'to', 'crash', 'your','site', 38, 45])
 ```
 ### Результат
-![]()
+![](https://github.com/Mbryn520/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_10/pics10/Lab3.png)
 ## Вывод
 
 ## Лабораторная работа №4
@@ -103,7 +104,7 @@ if __name__ == '__main__':
     check_name(name)
 ```
 ### Результат
-![]()
+![](https://github.com/Mbryn520/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_10/pics10/Lab4.png)
 ## Вывод
 
 ## Лабораторная работа №5
@@ -129,7 +130,7 @@ if __name__ == '__main__':
     print('>> Сайт выключен')
 ```
 ### Результат
-![]()
+![](https://github.com/Mbryn520/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_10/pics10/Lab5.png)
 ## Вывод
 
 ## Самостоятельная работа №1
@@ -162,7 +163,7 @@ if __name__ == '__main__':
     fibonacci()
 ```
 ### Результат
-![]()
+![](https://github.com/Mbryn520/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_10/pics10/Sam1.png)
 ## Вывод
 
 ## Самостоятельная работа №2
@@ -189,7 +190,7 @@ if __name__ == '__main__':
     read_file_content('input.txt')
 ```
 ### Результат
-![]()
+![](https://github.com/Mbryn520/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_10/pics10/Sam2.png)
 ## Вывод
 
 ## Самостоятельная работа №3
@@ -210,7 +211,7 @@ if __name__ == '__main__':
     add_two()
 ```
 ### Результат
-![]()
+![](https://github.com/Mbryn520/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_10/pics10/Sam3.png)
 ## Вывод
 
 ## Самостоятельная работа №4
@@ -238,7 +239,7 @@ print("minus(10, 3):", minus(10, 3))
 print("divide(20, 4):", divide(20, 4))
 ```
 ### Результат
-![]()
+![](https://github.com/Mbryn520/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_10/pics10/Sam4.png)
 ## Вывод
 
 ## Самостоятельная работа №5
@@ -273,7 +274,7 @@ except MyError as e:
     print("Ошибка:", e)
 ```
 ### Результат
-![]()
+![](https://github.com/Mbryn520/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_10/pics10/Sam5.png)
 ## Вывод
 
 ## Общий вывод по теме
