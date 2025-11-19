@@ -25,7 +25,7 @@ for item in numbers:
     print(item)
 ```
 ### Результат
-![]()
+![](https://github.com/Mbryn520/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_11/pics11/Lab1.png)
 ## Вывод
 
 ## Лабораторная работа №2
@@ -50,7 +50,7 @@ if __name__== "__main__":
         print(i)
 ```
 ### Результат
-![]()
+![](https://github.com/Mbryn520/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_11/pics11/Lab2.png)
 ## Вывод
 
 ## Лабораторная работа №3
@@ -67,7 +67,7 @@ for i in a:
     print(i)
 ```
 ### Результат
-![]()
+![](https://github.com/Mbryn520/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_11/pics11/Lab3.png)
 ## Вывод
 
 ## Лабораторная работа №4
@@ -84,7 +84,7 @@ for i in b:
     print(i)
 ```
 ### Результат
-![]()
+![](https://github.com/Mbryn520/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_11/pics11/Lab4.png)
 ## Вывод
 
 ## Лабораторная работа №5
@@ -101,7 +101,7 @@ if __name__== '__main__':
         print(i)
 ```
 ### Результат
-![]()
+![](https://github.com/Mbryn520/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_11/pics11/Lab5.png)
 ## Вывод
 
 ## Самостоятельная работа №1
@@ -118,7 +118,7 @@ for num in fib(200):
 print(result)
 ```
 ### Результат
-![]()
+![](https://github.com/Mbryn520/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_11/pics11/Sam1.png)
 ## Вывод
 
 ## Самостоятельная работа №2
@@ -135,7 +135,8 @@ with open('fib.txt', 'w') as f:
         f.write(f'{num}\n')
 ```
 ### Результат
-![]()
+![](https://github.com/Mbryn520/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_11/pics11/Sam2.png)
+![](https://github.com/Mbryn520/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_11/pics11/Sam21.png)
 ## Вывод
 
 ## Общий вывод по теме
